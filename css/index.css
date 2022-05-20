@@ -38,17 +38,20 @@
 }
 .header .word {
   text-align: center;
-  font-size: 16px;
-  color: white;
 }
-.header .word #info {
+.header .word a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #f3e5e5;
+}
+.header .word p {
   font-size: 13px;
   padding: 10px;
   color: #f8d7d2;
 }
 .content .title {
   border-bottom: 1px #fbcaca solid;
-  margin-left: 25px;
+  margin: 0 ,auto;
   padding: 8px 10px 3px 10px;
   color: #390d06;
   font-size: 16px;
@@ -60,9 +63,11 @@
   margin-top: 5px;
   display: flex;
   flex-flow: column warp;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .content .res .card {
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   width: 200px;
   height: 200px;
   background-color: aqua;
