@@ -21,3 +21,28 @@
     background-color: transparent;
   }
 }
+.header {
+  background-image: linear-gradient(to right, #ed4f4f, #f8bd96);
+  height: 170px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .logo img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .word {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+.header .word #info {
+  font-size: 13px;
+  padding: 10px;
+  color: #f8d7d2;
+}
