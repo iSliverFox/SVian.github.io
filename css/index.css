@@ -46,3 +46,24 @@
   padding: 10px;
   color: #f8d7d2;
 }
+.content .title {
+  border-bottom: 1px #fbcaca solid;
+  margin-left: 25px;
+  padding: 8px 10px 3px 10px;
+  color: #390d06;
+  font-size: 16px;
+}
+.content .title p {
+  margin-left: 20px;
+}
+.content .res {
+  margin-top: 5px;
+  display: flex;
+  flex-flow: column warp;
+  justify-content: space-around;
+}
+.content .res .card {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
