@@ -12,20 +12,12 @@
 .welcome .p {
   color: #ffffff;
   font-size: 25px;
-  animation: word 1s forwards 0.5s;
   margin: 20% 0 ;
   text-align: center;
 }
 @keyframes welcome {
   to {
-    height: 0;
-    color: transparent;
-    background-color: transparent;
-  }
-}
-@keyframes word {
-  to {
-    color: transparent;
+    transform: translateY(-1000px);
     background-color: transparent;
   }
 }
