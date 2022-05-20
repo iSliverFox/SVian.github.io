@@ -1,23 +1,24 @@
-# 🎯Start My codeinng life!!
-## Welcome to my github page😍
-### Hoping you will something useful and fun here.I'm working on Vue and try to build my own project,which seems more diffcult than I first thought.However I love Challenging thing 🤯
+# vue
 
-## 🎏1、I uploaded my first project.It's a web about poem.It based on pure css and html.I think it's fresh start,I will make it whole
+## Project setup
+```
+npm install
+```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
+### Compiles and minifies for production
+```
+npm run build
+```
 
+### Lints and fixes files
+```
+npm run lint
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### My emojis:🎯🎊🎉😍❤️🤯🎈🎏🎪👑🎖️📮📭📌🍭🍧🪂🛥️🏟️
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
