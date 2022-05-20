@@ -1,0 +1,21 @@
+html {
+  background-color: #0b0d11;
+  animation: ht 2s forwards 1s;
+}
+.welcome .p {
+  color: #ffffff;
+  font-size: 25px;
+  animation: wel 2s forwards 0.5s;
+  margin: 20% 0 ;
+  text-align: center;
+}
+@keyframes ht {
+  to {
+    background-color: transparent;
+  }
+}
+@keyframes wel {
+  to {
+    color: transparent;
+  }
+}
