@@ -64,6 +64,9 @@
 }
 
 .content{
+    // display: flex;
+    // flex-flow: row warp;
+    // justify-content: space-evenly;
     .title{
         border-bottom: 1px rgb(251, 202, 202) solid;
         margin: 0 ,auto;
@@ -77,35 +80,45 @@
     .res{
         margin-top: 5px;
         display: flex;
-        flex-flow: column warp;
+        flex-flow: row warp;
         justify-content: space-evenly;
-        // align-items: center;
         .card {
             width: 480px;
             height: 350px;
-            cursor: pointer;
             margin: 20px;
             border-radius: 12px;
             box-shadow: 0px 8px 25px rgba(0, 0, 0, 12%);
             transition: all .5s;
             display: flex;
             flex-direction: column;
-            // padding: 25px;
-            // justify-content: space-evenly;
-            // background-color: #e1c2bf;
-            // &:hover{
-                // background-image: linear-gradient(to right, rgb(247, 224, 224), rgb(237, 227, 220));
-                // background: url(//qd.myapp.com/myapp/qqteam/TIM_WEB/img/TIM_PC/01.png) no-repeat center 0;
-                // background-size: cover;
-             
-            // }
+            overflow: hidden;
+            text-align: center;
+            font-size: 40px;
+            p{
+                font-size: 18px;
+            }
+            i{
+                font-size: 12px;
+            }
 
-            &:nth-child(1){
+            .reposi{
+                margin-top: 50px;
+                // background-color: #390d06;
+            }
 
-                text-align: center;
-                font-size: 40px;
-                p{
-                    font-size: 18px;
+            .prop{
+                margin-top: 40px;
+                button{
+                    cursor: pointer;
+                    background-color: rgba(255, 255, 255, .3);
+                    padding: 10px;
+                    border: 1px rgb(174, 174, 174) solid;
+                    border-radius: 8px;
+                    &:hover{
+                        background-color: #ECF5FF;
+                        color: #409EFF;
+                        border: 1px #409EFF solid;
+                    }
                 }
             }
         }
