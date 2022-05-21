@@ -346,8 +346,6 @@
             <p class="p">欢迎来到-我的个人主页🎉</p>
         </div> -->
 
-        <!-- 页面内容 -->
-        <!-- 顶部导航 -->
         <div class="header">
             <!-- 头像及文字 -->
             <div class="logo">
@@ -356,20 +354,11 @@
             <div class="word">
                 <a href="https://isliverfox.github.io/SVian.github.io/">Svian的个人主页</a>
                 <p>你可以在这里快速查看并获取我发布的repositories</p>
-            </div>
+             </div>
+            <iframe src="./Button/index.html" frameborder="0" class="butn"></iframe>
         </div>
 
-        <!-- 页面主体 -->
-        <!-- 内容区 -->
         <div class="content">
-            <!-- <div class="title">
-                <p>基于Vue
-                    <a href="https://cn.vuejs.org/" 
-                       style="text-decoration: none; font-size: 12px; color:rgb(25, 192, 61);"
-                       target="_blank">[ 了解Vue ]</a>
-                </p>
-            </div> -->
-            
             <div class="res" >
                 <div class="card">   
                     <div class="reposi">                       
@@ -400,12 +389,17 @@
             </div>
 
         </div>
+
     </div>
 
-
+    <script type="text/javascript">
+       function autoResize() {
+            document.all["iframe"].style.height = iframe.document.body.scrollHeight + 20;   
+        }  
+    </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js'></script>
-    <script src="../js/firework.js"></script>
+    <script src="./js/firework.js"></script>
 </body>
 
 </html>

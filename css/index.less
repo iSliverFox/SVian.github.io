@@ -38,6 +38,14 @@ body{
     flex-direction: column;
     align-items: center;
 
+    iframe.butn{
+        width: 200px;
+        height: 70px;
+        margin-bottom: 10px;
+        position: relative;
+        z-index: 1;
+    }
+
     .logo{
         // background-color: blue;
         z-index: 10;
@@ -73,7 +81,10 @@ body{
 .content{
     // display: flex;
     // flex-flow: row warp;
-    // justify-content: space-evenly;
+    // justify-content: space-evenly
+    .butn{
+
+    }
     .title{
         border-bottom: 1px rgb(251, 202, 202) solid;
         margin: 0 ,auto;
@@ -91,7 +102,7 @@ body{
         justify-content: space-evenly;
         .card {
             width: 480px;
-            height: 350px;
+            height: 330px;
             margin: 20px;
             border-radius: 12px;
             box-shadow: 0px 8px 25px rgba(0, 0, 0, 12%);
@@ -116,9 +127,14 @@ body{
 
             .prop{
                 margin-top: 40px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
                 button{
                     cursor: pointer;
                     background-color: rgba(255, 255, 255, .3);
+                    margin-top: 20px;
                     padding: 10px;
                     border: 1px rgb(174, 174, 174) solid;
                     border-radius: 8px;
