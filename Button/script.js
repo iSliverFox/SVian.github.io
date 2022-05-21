@@ -180,6 +180,7 @@ render = () => {
 
 // cycle through button states when clicked
 clickButton = () => {
+
   if (!disabled) {
     disabled = true
     // Loading stage
@@ -191,14 +192,18 @@ clickButton = () => {
       button.classList.remove('loading')
       setTimeout(() => {
         window.initBurst()
+        setTimeout(() => { 
+          window.open('https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FiSliverFox')
+        },600)
+
         // setTimeout(() => {
         //   // Reset button so user can select it again
         //   disabled = false
         //   button.classList.add('ready')
         //   button.classList.remove('complete')
         // }, 4000)
-      }, 320)
-    }, 1800)
+      }, 1000)
+    }, 500)
   }
 }
 

@@ -43,7 +43,7 @@ button {
   z-index: 1;
 }
 button::before {
-  background: #1f2335;
+  background: #1c0c07;
   border-radius: 50px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4) inset;
   content: "";
