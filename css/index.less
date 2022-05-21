@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", "Lato", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+
 .welcome{
         width: 100%;
         height: 100%;
@@ -27,7 +32,7 @@
 
 .header{
     background-image: linear-gradient(to right, rgb(237, 79, 79), rgb(248, 189, 150));
-    height: 170px;
+    height: 1 vw;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -35,6 +40,7 @@
 
     .logo{
         // background-color: blue;
+        z-index: 10;
         img{
             cursor: pointer;
             margin-top: 5px;
@@ -42,6 +48,7 @@
             width: 100px;
             background-size: cover;
             background-repeat: no-repeat;
+            
         }
     }
     .word{
@@ -94,6 +101,7 @@
             overflow: hidden;
             text-align: center;
             font-size: 40px;
+            background-color: rgba(255,255,255,.9);
             p{
                 font-size: 18px;
             }
