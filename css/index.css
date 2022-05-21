@@ -107,7 +107,7 @@ body {
   margin-top: 50px;
 }
 .content .res .card .prop {
-  margin-top: 40px;
+  margin: 25px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -119,7 +119,7 @@ body {
   margin-top: 20px;
   padding: 10px;
   border: 1px #aeaeae solid;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 .content .res .card .prop button:hover {
   background-color: #ECF5FF;
