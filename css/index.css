@@ -33,9 +33,6 @@ body::-webkit-scrollbar {
   position: relative;
   z-index: 1;
 }
-.header .logo {
-  z-index: 10;
-}
 .header .logo img {
   cursor: pointer;
   margin-top: 5px;
@@ -43,6 +40,7 @@ body::-webkit-scrollbar {
   width: 90px;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 50%;
 }
 .header .word {
   text-align: center;
