@@ -8,9 +8,6 @@ body {
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
-  background-image: url(../assets/background.png);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
@@ -51,12 +48,12 @@ body::-webkit-scrollbar {
 .header .word a {
   font-size: 16px;
   text-decoration: none;
-  color: #f5f0f0;
+  color: #ed6a6a;
 }
 .header .word p {
   font-size: 13px;
   padding: 10px;
-  color: #f1e0dd;
+  color: #ea7f6d;
 }
 .content .title {
   border-bottom: 1px #fbcaca solid;
