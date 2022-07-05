@@ -1,152 +1,174 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/icon.png">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/sunrise.css">
 
-    <title>Svian的个人主页</title>
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<body style="background-color: transparent;">
-    <!-- 底部背景 --> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/icon.png">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/sunrise.css">
 
-    <div class="landscape">
-        <div class="mountain"></div>
-        <div class="mountain mountain-2"></div>
-        <div class="mountain mountain-3"></div>
-        <div class="sun-container sun-container-1">
+        <title>Svian的个人主页</title>
+    </head>
+
+    <body style="background-color: transparent;">
+        <!-- 底部背景 -->
+
+        <div class="landscape">
+            <div class="mountain"></div>
+            <div class="mountain mountain-2"></div>
+            <div class="mountain mountain-3"></div>
+            <div class="sun-container sun-container-1">
+            </div>
+            <div class="sun-container">
+                <div class="sun"></div>
+            </div>
+            <div class="cloud"></div>
+            <div class="cloud cloud-1"></div>
+            <div class="sun-container sun-container-reflection">
+                <div class="sun"></div>
+            </div>
+            <div class="light"></div>
+            <div class="light light-1"></div>
+            <div class="light light-2"></div>
+            <div class="light light-3"></div>
+            <div class="light light-4"></div>
+            <div class="light light-5"></div>
+            <div class="light light-6"></div>
+            <div class="light light-7"></div>
+            <div class="water"></div>
+            <div class="splash"></div>
+            <div class="splash delay-1"></div>
+            <div class="splash delay-2"></div>
+            <div class="splash splash-4 delay-2"></div>
+            <div class="splash splash-4 delay-3"></div>
+            <div class="splash splash-4 delay-4"></div>
+            <div class="splash splash-stone delay-3"></div>
+            <div class="splash splash-stone splash-4"></div>
+            <div class="splash splash-stone splash-5"></div>
+            <div class="lotus lotus-1"></div>
+            <div class="lotus lotus-2"></div>
+            <div class="lotus lotus-3"></div>
+            <div class="front">
+                <div class="stone"></div>
+                <div class="grass"></div>
+                <div class="grass grass-1"></div>
+                <div class="grass grass-2"></div>
+                <div class="reed"></div>
+                <div class="reed reed-1"></div>
+            </div>
         </div>
-        <div class="sun-container">
-            <div class="sun"></div>
-        </div>
-        <div class="cloud"></div>
-        <div class="cloud cloud-1"></div>
-        <div class="sun-container sun-container-reflection">
-            <div class="sun"></div>
-        </div>
-        <div class="light"></div>
-        <div class="light light-1"></div>
-        <div class="light light-2"></div>
-        <div class="light light-3"></div>
-        <div class="light light-4"></div>
-        <div class="light light-5"></div>
-        <div class="light light-6"></div>
-        <div class="light light-7"></div>
-        <div class="water"></div>
-        <div class="splash"></div>
-        <div class="splash delay-1"></div>
-        <div class="splash delay-2"></div>
-        <div class="splash splash-4 delay-2"></div>
-        <div class="splash splash-4 delay-3"></div>
-        <div class="splash splash-4 delay-4"></div>
-        <div class="splash splash-stone delay-3"></div>
-        <div class="splash splash-stone splash-4"></div>
-        <div class="splash splash-stone splash-5"></div>
-        <div class="lotus lotus-1"></div>
-        <div class="lotus lotus-2"></div>
-        <div class="lotus lotus-3"></div>
-        <div class="front">
-            <div class="stone"></div>
-            <div class="grass"></div>
-            <div class="grass grass-1"></div>
-            <div class="grass grass-2"></div>
-            <div class="reed"></div>
-            <div class="reed reed-1"></div>
-        </div>
-    </div>
-    <!-- 网页主体 -->
-    <div class="maincontainer">
-        <!-- 欢迎界面 -->
-        <!-- <div class="welcome">
+        <!-- 网页主体 -->
+        <div class="maincontainer">
+            <!-- 欢迎界面 -->
+            <!-- <div class="welcome">
                 <p class="p">欢迎来到-我的个人主页🎉</p>
             </div> -->
-            
-        <div class="header">
-            <!-- 头像及文字 -->
-            <div class="logo"
-                onclick="window.open('https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FiSliverFox')">
-                <!-- <img src="./assets/logo.png" alt=""> -->
-                <!-- <img src="https://avatars.githubusercontent.com/u/66202597?v=4" alt=""> -->
-                <img src="./assets/logo.png" alt="">
-            </div>
-            <div class="word">
-                <a href="https://isliverfox.github.io/SVian.github.io/">Svian的个人主页</a>
-                <p>你可以在这里快速查看并获取我发布的repositories</p>
-            </div>
-            <iframe src="./Button/index.html" frameborder="0" class="butn"></iframe>
-        </div>
 
-        <div class="content">
-            <!-- 第一行 -->
-            <div class="res">
-
-                <div class="card">
-                    <div class="reposi">
-                        🍟
-                        <p>TaskManager</p>
-                        <i>基于Vue的轻量的在线任务管理器，随时随地管理你的待办</i>
-                    </div>
-                    <div class="prop">
-                        <button onclick="window.open('https://isliverfox.github.io/TaskManager/')">项目说明</button>
-                        <button onclick="window.open('https://github.com/iSliverFox/TaskManager')">源码文件</button>
-                        <button onclick="window.open('https://github.com/iSliverFox/TaskManager/releases/tag/v0.1.0')">发行版本</button>
-                    </div>
+            <div class="header">
+                <!-- 头像及文字 -->
+                <div class="logo"
+                    onclick="window.open('https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FiSliverFox')">
+                    <!-- <img src="./assets/logo.png" alt=""> -->
+                    <!-- <img src="https://avatars.githubusercontent.com/u/66202597?v=4" alt=""> -->
+                    <img src="./assets/logo.png" alt="">
                 </div>
+                <div class="word">
+                    <a href="https://isliverfox.github.io/SVian.github.io/">Svian的个人主页</a>
+                    <p>你可以在这里快速查看并获取我发布的repositories</p>
+                </div>
+                <iframe src="./Button/index.html" frameborder="0" class="butn"></iframe>
+            </div>
 
-                <div class="card">
-                    <div class="reposi">
-                        <img src="./assets/Moreather.png" style="height: 50px;">
-                        <p>Moreather</p>
-                        <i style="text-overflow: ellipsis;">Lite Weather Web-简洁的在线网页天气</i>
-                    </div>
-                    <div class="prop">
+            <div class="content">
+                <!-- 第一行 -->
+                <div class="res">
+                    <!-- 卡片 1 -->
+                    <div class="card">
+                        <div class="reposi">
+                            <img src="./assets/Moreather.png" style="height: 50px;">
+                            <p>Moreather</p>
+                            <i style="text-overflow: ellipsis;">Lite Weather Web-简洁的在线网页天气</i>
+                        </div>
+                        <div class="prop">
                             <button onclick="window.open('https://isliverfox.github.io/Moreather/')">在线预览</button>
                             <button onclick="window.open('https://github.com/iSliverFox/Moreather')">源码文件</button>
                             <!-- <button>发行版本</button> -->
+                        </div>
                     </div>
+
+                    <!-- 卡片2 -->
+                    <div class="card">
+                        <div class="reposi">
+                            🍟
+                            <p>TaskManager</p>
+                            <i>基于Vue的轻量的在线任务管理器，随时随地管理你的待办</i>
+                        </div>
+                        <div class="prop">
+                            <button onclick="window.open('https://isliverfox.github.io/TaskManager/')">项目说明</button>
+                            <button onclick="window.open('https://github.com/iSliverFox/TaskManager')">源码文件</button>
+                            <button
+                                onclick="window.open('https://github.com/iSliverFox/TaskManager/releases/tag/v0.1.0')">发行版本</button>
+                        </div>
+                    </div>
+
                 </div>
 
-            </div>
+                <!-- 第二行 -->
+                <div class="res">
+                    <div class="card">
+                        <div class="reposi">
+                            <img src="./assets/poem.png" style="height: 50px;">
+                            <p>Poem</p>
+                            <i>基于Vue的在线诗歌网站，带你体验传统文化</i>
+                        </div>
+                        <div class="prop">
+                            <button onclick="window.open('https://isliverfox.github.io/Poem/')">在线预览</button>
+                            <button onclick="window.open('https://github.com/iSliverFox/Poem')">源码文件</button>
+                            <!-- <button onclick="window.open('https://github.com/iSliverFox/TaskManager/releases/tag/v0.1.0')">发行版本</button> -->
+                        </div>
+                    </div>
 
-            <!-- 第二行 -->
-            <div class="res">
-                <div class="card">
-                    <div class="reposi">
-                        <img src="./assets/poem.png" style="height: 50px;">
-                        <p>Poem</p>
-                        <i>基于Vue的在线诗歌网站，带你体验传统文化</i>
+                    <div class="card">
+                        <div class="reposi">
+                            <img src="./assets/Composer.png" style="height: 50px;">
+                            <p>Composer</p>
+                            <i>为方便家人上网，自建的导航页面</i>
+                        </div>
+                        <div class="prop">
+                            <button onclick="window.open('https://isliverfox.github.io/Composer/')">在线预览</button>
+                            <button onclick="window.open('https://github.com/iSliverFox/Composer')">源码文件</button>
+                            <!-- <button onclick="window.open('https://github.com/iSliverFox/TaskManager/releases/tag/v0.1.0')">发行版本</button> -->
+                        </div>
                     </div>
-                    <div class="prop">
-                        <button onclick="window.open('https://isliverfox.github.io/Poem/')">在线预览</button>
-                        <button onclick="window.open('https://github.com/iSliverFox/Poem')">源码文件</button>
-                        <!-- <button onclick="window.open('https://github.com/iSliverFox/TaskManager/releases/tag/v0.1.0')">发行版本</button> -->
-                    </div>
-                </div>
 
-                <div class="card">
-                    <div class="reposi">
-                        🪂
-                        <p>More Repositories</p>
-                        <i style="text-overflow: ellipsis;">更多项目正在路上...</i>
-                    </div>
+                    <!-- <div class="card"> -->
+                    <!-- <div class="reposi">
+                            🪂
+                            <p>More Repositories</p>
+                            <i style="text-overflow: ellipsis;">更多项目正在路上...</i>
+                        </div> -->
                     <!-- <div class="prop">
                             <button>项目说明</button>
                             <button>源码文件</button>
                             <button>发行版本</button>
                         </div> -->
+                    <!-- </div> -->
+
                 </div>
 
+                <!-- 底部说明 -->
+                <p class="b-text1">🪂More Repositories</p>
+                <p class="b-text2">更多项目正在路上...</p>
+
             </div>
+
         </div>
 
-    </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js'></script>
+    </body>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js'></script>
-</body>
-
-</html>
+    </html>

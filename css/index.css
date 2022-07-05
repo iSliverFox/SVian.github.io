@@ -55,6 +55,17 @@ body::-webkit-scrollbar {
   padding: 10px;
   color: #ea7f6d;
 }
+.content .b-text1 {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+.content .b-text2 {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin: 5px 0 20px 0;
+}
 .content .title {
   border-bottom: 1px #fbcaca solid;
   margin: 0 ,auto;
